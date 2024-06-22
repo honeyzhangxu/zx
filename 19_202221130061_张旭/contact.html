@@ -1,0 +1,56 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>联系方式</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+   
+    <header>东隅已逝</header>  
+  
+    <main>  
+        <div class="contact-content"> 
+        <h2>联系方式</h2>  
+        <div class="contact-info">  
+        <p>qq: 1943493178</p>
+        <p>邮箱: 1943493178@qq.com</p>  
+        <p>电话: 18130232424</p>  
+        <p>地址: 湖北省武汉市洪山区</p>  
+        <h3>联系我</h3>  
+    <p>请填写以下表单以与我留言或联系。</p>  
+  
+    <!-- 表单开始 -->  
+    <form action="submit_contact.php" method="post">  
+        <!-- 姓名 -->  
+        <div>  
+            <label for="name">姓名:</label>  
+            <input type="text" id="name" name="name" required>  
+        </div>  
+  
+        <!-- 邮箱 -->  
+        <div>  
+            <label for="email">邮箱:</label>  
+            <input type="email" id="email" name="email" required>  
+        </div>  
+  
+        <!-- 留言 -->  
+        <div>  
+            <label for="message">留言:</label>  
+            <textarea id="message" name="message" rows="4" required></textarea>  
+        </div>  
+  
+        <!-- 提交按钮 -->  
+        <div>  
+            <input type="submit" value="提交">  
+        </div>  
+    </form>  
+       
+    </div>  
+</div>  
+    </main>  
+  
+    <footer>桑榆非晚</footer>  
+</body>  
+</html>
